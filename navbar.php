@@ -1,4 +1,4 @@
-<nav class="navbar navbar-inverse navbar-fixed-top">
+<nav class="navbar navbar-expand-sm navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="#">📋 Blog</a>
@@ -6,6 +6,8 @@
     <ul class="nav navbar-nav">
       <li><a href="index.php">Home</a></li>
       <li><a href="blogs.php">Blogs</a></li>
+      <li><a href="about.php">About</a></li>
     </ul>
   </div>
 </nav>
+
