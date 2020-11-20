@@ -1,6 +1,5 @@
 <?php
 $currentSite = 'TITLE';
-
 ?>
 
 <!DOCTYPE html>

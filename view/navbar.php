@@ -8,8 +8,10 @@
       <li><a href="index.php">Home</a></li>
       <li><a href="blogs.php">Blogs</a></li>
       <li><a href="about.php">About</a></li>
-      <li><a href="login.php">Login</a></li>
-      <li><a href="register.php">Register</a></li>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="register.php"><span class="glyphicon glyphicon-user"></span> Register</a></li>
+          <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
     </ul>
   </div>
 </nav>

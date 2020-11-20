@@ -1,4 +1,3 @@
-
 <?php
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -10,6 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $statement = $sbh->prepare("SELECT * FROM users WHERE username = :username and password = :password");
     $statement->execute([":username" => $username]);
     $statement->execute([":password" => $password]);
+
     $users = $statement->fetchAll();
 
     if (count($users) > 0) {
