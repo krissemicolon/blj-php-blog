@@ -2,3 +2,7 @@
     font-family: 'IBM Plex Sans', sans-serif !important;
 }
 
+.ebutton {
+    margin: 10px; 
+    font-size: 20px;
+}
