@@ -1,25 +1,13 @@
-<?php
-$currentSite = 'Login';
-?>
-
-<!DOCTYPE html>
-<html lang="en">
-<?php include 'head.php'?>
-<body>
-<header>
-    <?php include 'navbar.php'?>
-    <?php include 'title.php'?>
-</header>
-
+<div class="user-form">
 <form method="post">
 
     <div class="container" id="loginform">
-        <label for="uname"><b>Username</b></label>
-        <input type="text" placeholder="Enter Username" name="uname" required>
+        <label for="username"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="username" required>
         <br>
 
         <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" required>
+        <input type="password" placeholder="Enter Password" name="password" required>
         <br>
 
         <button type="submit">Login</button>
@@ -27,6 +15,4 @@ $currentSite = 'Login';
     </div>
 
 </form>
-
-</body>
-</html>
+</div>

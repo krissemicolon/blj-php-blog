@@ -42,6 +42,20 @@
     echo "</div>";
 ?>
 </header>
+<!-- View --!>
+<div class="container">
+        <main>
+            <?php
+            // Include view
+            foreach ($views as $index => $view) {
+                if ($page === $view) {
+                    include "views/$view";
+                    break;
+                }
+            }
+            ?>
+        </main>
+    </div>
 
 </div>
 </body>

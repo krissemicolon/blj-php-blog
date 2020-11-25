@@ -14,7 +14,7 @@ $views = [
 function includeView($views) {
     foreach ($views as $name => $view) {
         if ($viewName === $view) {
-            include "controllers/$view";
+            include "controller/$view";
 
             return include "views/$view";
         }

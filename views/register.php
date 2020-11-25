@@ -1,16 +1,4 @@
-<?php
-$currentSite = 'Register';
-?>
-
-<!DOCTYPE html>
-<html lang="en">
-<?php include 'head.php'?>
-<body>
-<header>
-    <?php include 'navbar.php'?>
-    <?php include 'title.php'?>
-</header>
-
+<div class="user-form">
 <form method="post">
 
     <div class="container" id="loginform">
@@ -28,5 +16,3 @@ $currentSite = 'Register';
 
 </form>
 </div>
-</body>
-</html>

@@ -1,5 +1,2 @@
-<?php
-$currentSite = 'Home';
-
-?>
+<h2>Latest Posts: </h2>
 
