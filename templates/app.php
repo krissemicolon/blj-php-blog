@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Blog</title>
@@ -13,3 +15,34 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
+<body>
+<header>
+<!-- Navbar -->
+<div class="header">
+    <nav class="navbar navbar-expand-sm navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">📋 Blog</a>
+        </div>
+        <ul class="nav navbar-nav">
+        
+        <?php foreach ($views as $name => $view): ?>
+        <li><a href="?page=<?= htmlspecialchars($view); ?>"><?= htmlspecialchars($name); ?></a></li>
+        <?php endforeach; ?>
+
+        </ul>
+      </div>
+    </nav>
+</div> 
+<!-- Title -->
+<?php    
+    $pageTitle = rtrim(ucfirst($page), ".php");
+    echo "<div class='container' style='margin-top:80px'>";
+    echo "<h1>$pageTitle</h1>";
+    echo "</div>";
+?>
+</header>
+
+</div>
+</body>
+</html>

@@ -11,15 +11,15 @@ $views = [
 
 ];
 
-function includeView($views, $viewName) {
+function includeView($views) {
     foreach ($views as $name => $view) {
         if ($viewName === $view) {
-            include "controller/$view"; 
+            include "controllers/$view";
 
-            return include "view/$view";
+            return include "views/$view";
         }
     }
 }
 
-/* include "template/template.php"; */
+include "templates/app.php";
 ?>
