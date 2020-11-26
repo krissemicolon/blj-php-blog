@@ -2,6 +2,10 @@
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
+h2 {
+    padding-bottom: 20px;
+}
+
 #loginform {
     border: 1px solid black
     margin-right: auto;
@@ -21,4 +25,26 @@
 .user-form {
     width: 50%;
     margin: 0 auto;
+}
+
+.post-container {
+    width: 80% !important;
+    margin: 0 auto !important;
+    margin-bottom: 40px !important; 
+    border: 1px solid black;
+    box-shadow: 10px 10px ;
+}
+
+.post-header {
+    text-decoration: underline;
+}
+
+.post-text {
+    margin-top: 10px;
+}
+
+.post-footer {
+    font-size: 20;
+    color: grey;
+    margin-top: 4px;
 }
