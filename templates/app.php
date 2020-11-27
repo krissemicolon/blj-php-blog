@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
-<body>
+
 <header>
 <!-- Navbar -->
 <div class="header">
@@ -42,8 +42,9 @@
     echo "</div>";
 ?>
 </header>
-<!-- View --!>
-<div class="container">
+<!-- View -->
+<body>
+<div class="container" id="wrapper">
         <main>
             <?php
             // Include view

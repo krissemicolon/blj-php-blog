@@ -6,7 +6,6 @@ try{
 	$pdo = new PDO('mysql:host=localhost;dbname=blogdb', $user, $password, [
 	PDO::ATTR_ERRMODE 		        => PDO::ERRMODE_EXCEPTION,
 	PDO::MYSQL_ATTR_INIT_COMMAND	=> 'SET NAMES utf8',
-	
 	]);
 } catch(PDOException $e) {
 	die('Error! Can not connect to database: ' . $e->getMessage());

@@ -1,18 +1,30 @@
-<div class="user-form">
-<form method="post">
+<div class="centered">
+<form method="post" action="controller/registerController.php">
+  <div class="form-group">
+    <label for="firstname"><b>First Name</b></label>
+    <input type="text" class="form-control" name="firstname" placeholder="Enter First Name">
+  </div>
 
-    <div class="container" id="loginform">
-        <label for="uname"><b>Username</b></label>
-        <input type="text" placeholder="Enter Username" name="uname" required>
-        <br>
+  <div class="form-group">
+    <label for="lastname"><b>Last Name</b></label>
+    <input type="text" class="form-control" name="lastname" placeholder="Enter Last Name">
+  </div>
 
-        <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" required>
-        <br>
+  <div class="form-group">
+    <label for="username"><b>Username</b></label>
+    <input type="text" class="form-control" name="username" placeholder="Enter Username">
+  </div>
 
-        <button type="submit">Login</button>
-        <br>
-    </div>
+  <div class="form-group">
+    <label for="email">Email address</label>
+    <input type="email" class="form-control" name="email" placeholder="Enter E-Mail">
+  </div>
 
+  <div class="form-group">
+    <label for="passwd">Password</label>
+    <input type="password" class="form-control" name="password" placeholder="Password">
+  </div>
+
+  <button type="submit" class="btn btn-dark">Register</button>
 </form>
 </div>

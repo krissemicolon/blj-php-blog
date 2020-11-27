@@ -6,10 +6,30 @@ h2 {
     padding-bottom: 20px;
 }
 
-#loginform {
-    border: 1px solid black
-    margin-right: auto;
-    margin-left: auto;
+.centered {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid black;
+    box-shadow: 10px 10px;
+}
+
+#blog-form-wrapper {}
+
+#blog-form-text {}
+
+#loginform {}
+
+#user-form {
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+.form-field {
+    margin: 5px 5px 5px 5px;
 }
 
 .nav-button {
@@ -18,8 +38,6 @@ h2 {
     /* border: 1px solid white; */
     /* border-radius: 5px; */
     /* background-color: grey; */
-
-
 }
 
 .user-form {
@@ -27,12 +45,12 @@ h2 {
     margin: 0 auto;
 }
 
-.post-container {
-    width: 80% !important;
-    margin: 0 auto !important;
-    margin-bottom: 40px !important; 
+#post-container {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 40px; 
     border: 1px solid black;
-    box-shadow: 10px 10px ;
+    box-shadow: 10px 10px;
 }
 
 .post-header {

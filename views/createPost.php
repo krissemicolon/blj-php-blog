@@ -1,9 +1,9 @@
 <div class="centered">
-<form method="post" action="controller/loginController.php">
+<form method="post" action="controller/createPostController.php">
 
   <div class="form-group">
     <label for="username"><b>Username</b></label>
-    <input type="text" class="form-control" name="username" placeholder="Enter Username">
+    <input type="text" class="form-control" name="userName" placeholder="Enter Username">
   </div>
 
   <div class="form-group">
